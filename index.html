@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prifole Biodata HTML dan CSS</title>
+    <title>Profile Biodata HTML dan CSS</title>
 
     <!-- Font Google inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,14 +21,16 @@
 
     <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body style="font-family: Inter, serif">
+  <body style="font-family: Inter, serif" class="bg-slate-700">
     <!-- Main Information Start -->
     <main class="mt-36 mb-32">
       <div class="container">
         <div class="flex flex-wrap">
           <!-- Card Personal Info Start-->
-          <div class="w-full px-4 mb-10">
-            <div class="bg-[#eee] border border-secondary p-4 pb-10 rounded-lg">
+          <div class="w-full px-6 mb-10 md:px-12 lg:px-0 lg:w-[35%]">
+            <div
+              class="bg-[#eee] border border-secondary p-4 pb-10 rounded-lg shadow-xl"
+            >
               <h2
                 class="text-2xl font-semibold text-dark text-center font-serif mb-6"
               >
@@ -37,31 +39,28 @@
               <img
                 src="img/profile.jpeg"
                 alt="profile"
-                class="rounded-full w-[300px] h-[300px] mx-auto mb-6"
+                class="rounded-full w-[300px] h-[300px] mx-auto mb-6 lg:w-[200px] lg:h-[200px]"
               />
               <div
-                class="w-8/12 mx-auto items-center justify-center border-t-[1px] border-secondary"
+                class="w-8/12 mx-auto items-center justify-center border-t-[1px] border-secondary lg:w-10/12"
               >
                 <p class="mb-2 text-secondary mt-6">
-                  <span class="font-medium text-dark text-lg">Nama:</span> Vio
-                  Actona putra
+                  <span class="text-dark">Nama:</span> Vio Actona putra
                 </p>
                 <p class="mb-2 text-secondary">
-                  <span class="font-medium text-dark text-lg">Umur:</span> 20
-                  Tahun
+                  <span class="text-dark">Umur:</span> 20 Tahun
                 </p>
                 <p class="mb-2 text-secondary">
-                  <span class="font-medium text-dark text-lg">Email:</span>
+                  <span class="text-dark">Email:</span>
                   <a
                     href=""
                     target="_blank"
-                    class="underline hover:text-primary"
+                    class="underline transition duration-1000 hover:text-primary"
                     >vio.22110@mhs.unesa.ac.id</a
                   >
                 </p>
                 <p class="mb-2 text-secondary">
-                  <span class="font-medium text-dark text-lg">No:</span> +62
-                  812-2894-0876
+                  <span class="text-dark">No:</span> +62 812-2894-0876
                 </p>
                 <!-- link Sosial Media Start -->
                 <div class="flex mt-4">
@@ -151,47 +150,71 @@
           <!-- Card Personal Info End -->
 
           <!-- Card Bio/Deskripsi Start -->
-          <div class="w-full px-4">
-            <div class="border border-secondary bg-[#eee] p-4 rounded-lg">
+          <div class="w-full px-4 lg:w-[65%]">
+            <div
+              class="border border-secondary bg-[#eee] p-4 rounded-lg shadow-xl relative"
+            >
               <h2
                 class="text-2xl font-bold mb-6 font-serif text-dark text-center"
               >
                 Who Am I?
               </h2>
-              <h3 class="text-xl font-semibold mb-2 text-dark">
-                Fullstack Developer
-              </h3>
-              <p class="mb-2 text-secondary text-sm">
-                I am a Bachelor of Information Systems student majoring in
-                Informatics Engineering at Surabaya State University, have a
-                great ambition in a career in the fields of Web Development,
-                Data Analyst, and Cyber Security. I am active in organizational
-                active and have successfully carried out coordination
-                activities. Currently, I am looking for independent study
-                opportunities to further develop and grow in my field.
-              </p>
-              <button
-                class="py-2 px-4 border-2 border-primary text-primary text-sm font-semibold rounded-full mt-2 mb-8 hover:bg-primary hover:text-white"
-              >
-                Download My CV
-              </button>
+              <div class="px-4 lg:px-8">
+                <h3 class="text-xl font-semibold mb-2 text-dark font-serif">
+                  About Me
+                </h3>
+                <p
+                  class="mb-4 text-secondary text-sm md:text-base text-justify"
+                >
+                  I am a Bachelor of Information Systems student majoring in
+                  Informatics Engineering at Surabaya State University, have a
+                  great ambition in a career in the fields of Web Development,
+                  Data Analyst, and Cyber Security. I am active in
+                  organizational active and have successfully carried out
+                  coordination activities. Currently, I am looking for
+                  independent study opportunities to further develop and grow in
+                  my field.
+                </p>
 
-              <h3 class="text-xl font-semibold mb-2 text-dark">My Experties</h3>
-
-              <i class="fa-solid fa-computer text-slate-300 text-4xl"></i>
-              <h4 class="font-semibold mt-2 text-dark">Web Design</h4>
-              <p class="text-slate-500 text-sm">
-                Memahami perancangan figma dengan baik dan memiliki pengalaman
-                dalam menggunakan front end.
-              </p>
-
-              <i
-                class="fa-solid fa-database text-slate-300 text-4xl mt-5 mb-2"
-              ></i>
-              <h4 class="font-semibold text-dark">Database</h4>
-              <p class="text-secondary text-sm">
-                Memahami Konsep Backend dan Database.
-              </p>
+                <h3 class="text-xl font-semibold mb-4 text-dark font-serif">
+                  Education
+                </h3>
+                <div class="flex mb-4">
+                  <img
+                    src="img/logo.png"
+                    alt="logo unesa"
+                    width="150"
+                    height="150"
+                  />
+                  <div class="mt-6 text-sm ml-2 lg:ml-12">
+                    <h4 class="font-semibold mb-2">
+                      UNIVERSITAS NEGERI SURABAYA
+                    </h4>
+                    <p>Jurusan Teknik Informatika</p>
+                    <p>Prodi S1 Sistem Informasi</p>
+                    <p class="font-medium">Aug 2022 - Now</p>
+                  </div>
+                </div>
+                <div class="flex mb-20">
+                  <img
+                    src="img/logo2.png"
+                    alt="logo IC"
+                    width="150"
+                    height="150"
+                  />
+                  <div class="mt-6 text-sm ml-2 lg:ml-12">
+                    <h4 class="font-semibold mb-2">INSAN CENDEKIA GORONTALO</h4>
+                    <p>Jurusan Matematika dan Ilmu</p>
+                    <p>Pengetahuan Alam</p>
+                    <p class="font-medium">Jul 2019 - May 2020</p>
+                  </div>
+                </div>
+                <button
+                  class="absolute -bottom-2 right-10 mb-8 py-2 px-4 border-2 border-primary text-primary text-sm font-semibold rounded-full shadow-xl transition duration-500 hover:bg-primary hover:text-white active:bg-sky-800"
+                >
+                  Download My CV
+                </button>
+              </div>
             </div>
           </div>
           <!-- Card Bio/Deskripsi End -->
