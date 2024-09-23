@@ -612,6 +612,10 @@ video {
   bottom: -0.5rem;
 }
 
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
 .left-1\/2 {
   left: 50%;
 }
@@ -620,8 +624,8 @@ video {
   left: 425px;
 }
 
-.left-\[665px\] {
-  left: 665px;
+.left-\[650px\] {
+  left: 650px;
 }
 
 .right-10 {
@@ -638,26 +642,6 @@ video {
 
 .top-\[135px\] {
   top: 135px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.left-\[650px\] {
-  left: 650px;
-}
-
-.left-\[625px\] {
-  left: 625px;
 }
 
 .z-50 {
@@ -1020,11 +1004,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1230,10 +1209,6 @@ video {
   opacity: 0.8;
 }
 
-.hover\:opacity-60:hover {
-  opacity: 0.6;
-}
-
 .hover\:shadow-lg:hover {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -1360,5 +1335,68 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .xs\:right-1\/2 {
+    right: 50%;
+  }
+
+  .xs\:left-1\/2 {
+    left: 50%;
+  }
+
+  .xs\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .xs\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .xs\:h-\[250px\] {
+    height: 250px;
+  }
+
+  .xs\:h-\[150px\] {
+    height: 150px;
+  }
+
+  .xs\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .xs\:w-\[250px\] {
+    width: 250px;
+  }
+
+  .xs\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .xs\:w-full {
+    width: 100%;
+  }
+
+  .xs\:w-\[150px\] {
+    width: 150px;
+  }
+
+  .xs\:-translate-y-1\/2 {
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .xs\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .xs\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xs\:justify-center {
+    justify-content: center;
   }
 }
