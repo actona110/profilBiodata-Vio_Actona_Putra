@@ -32,7 +32,7 @@
               class="bg-[#eee] border border-secondary p-4 pb-10 rounded-lg shadow-xl"
             >
               <h2
-                class="text-2xl font-semibold text-dark text-center font-serif mb-6"
+                class="text-2xl font-semibold text-dark text-center font-serif mb-6 lg:text-3xl lg:mt-6"
               >
                 Personal Info
               </h2>
@@ -156,12 +156,14 @@
               class="border border-secondary bg-[#eee] p-4 rounded-lg shadow-xl relative"
             >
               <h2
-                class="text-2xl font-bold mb-6 font-serif text-dark text-center"
+                class="text-2xl font-bold mb-6 font-serif text-dark text-center lg:text-3xl lg:mt-6"
               >
                 Who Am I?
               </h2>
               <div class="px-4 lg:px-8">
-                <h3 class="text-xl font-semibold mb-2 text-dark font-serif">
+                <h3
+                  class="text-xl font-semibold mb-2 text-dark font-serif lg:text-2xl"
+                >
                   About Me
                 </h3>
                 <p
@@ -177,7 +179,9 @@
                   my field.
                 </p>
 
-                <h3 class="text-xl font-semibold mb-4 text-dark font-serif">
+                <h3
+                  class="text-xl font-semibold mb-4 text-dark font-serif lg:text-2xl"
+                >
                   Education
                 </h3>
                 <div class="flex mb-4">
@@ -231,7 +235,7 @@
         <div class="w-full px-4">
           <div class="text-center mx-auto mb-10">
             <h2
-              class="text-4xl font-semibold text-dark mb-2 font-serif lg:text-5xl"
+              class="text-4xl font-semibold text-dark mb-4 font-serif lg:text-5xl"
             >
               My Skills
             </h2>
@@ -420,5 +424,70 @@
       </div>
     </section>
     <!-- Information Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32 bg-slate-50">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2
+              class="font-bold text-dark text-4xl mb-4 lg:text-5xl font-serif"
+            >
+              Contact Me
+            </h2>
+            <p class="font-medium text-base text-secondary md:text-lg">
+              Anda dapat menghubungi saya dengan mengisi form dibawah ini!
+            </p>
+          </div>
+        </div>
+
+        <form>
+          <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+              <label for="name" class="text-base text-dark font-bold font-serif"
+                >Nama</label
+              >
+              <input
+                type="text"
+                id="name"
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label
+                for="email"
+                class="text-base text-dark font-bold font-serif"
+                >Email</label
+              >
+              <input
+                type="text"
+                id="email"
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label
+                for="message"
+                class="text-base text-dark font-bold font-serif"
+                >Pesan</label
+              >
+              <textarea
+                type="text"
+                id="email"
+                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"
+              ></textarea>
+            </div>
+            <div class="w-full px-4">
+              <button
+                class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500 active:bg-sky-800 active:opacity-100"
+              >
+                Kirim
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
   </body>
 </html>
