@@ -5,3 +5,7 @@
 .nav-a {
   @apply inline-block px-10 py-4 text-white hover:bg-primary;
 }
+
+.header-button {
+  @apply px-12 py-6 bg-primary text-white text-lg font-semibold rounded-xl hover:opacity-80;
+}

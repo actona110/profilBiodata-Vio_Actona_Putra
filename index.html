@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,8 +22,27 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body style="font-family: Inter, serif">
+    <!-- Hero Section Start -->
+    <header
+      id="hero"
+      class="w-full h-[500px] bg-[url('/img/background.jpeg')] hidden relative lg:block"
+    >
+      <h1
+        class="absolute text-7xl text-white font-serif left-1/2 -translate-x-1/2 top-[135px]"
+      >
+        My Biodata
+      </h1>
+      <a href="#profile" class="absolute header-button top-1/2 left-[425px]"
+        >My Profile</a
+      >
+      <a href="#contact" class="absolute header-button top-1/2 left-[665px]">
+        Contact Me
+      </a>
+    </header>
+    <!-- Hero Section End -->
+
     <!-- Navbar Start -->
-    <nav class="fixed w-full top-0 overflow-hidden z-50">
+    <nav class="sticky w-full top-0 overflow-hidden z-50">
       <ul>
         <li class="bg-[#333] flex justify-center group lg:justify-between">
           <div class="hidden lg:block">
