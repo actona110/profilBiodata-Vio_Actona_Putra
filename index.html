@@ -27,7 +27,7 @@
       <div class="container">
         <div class="flex flex-wrap">
           <!-- Card Personal Info Start-->
-          <div class="w-full px-6 mb-10 md:px-12 lg:px-0 lg:w-[35%]">
+          <div class="w-full px-4 mb-10 lg:w-[40%]">
             <div
               class="bg-[#eee] border border-secondary p-4 pb-10 rounded-lg shadow-xl"
             >
@@ -151,7 +151,7 @@
           <!-- Card Personal Info End -->
 
           <!-- Card Bio/Deskripsi Start -->
-          <div class="w-full px-4 lg:w-[65%]">
+          <div class="w-full px-4 lg:w-[60%]">
             <div
               class="border border-secondary bg-[#eee] p-4 rounded-lg shadow-xl relative"
             >
@@ -227,30 +227,46 @@
     <!-- Information Section Start -->
     <section id="skill" class="pt-36 pb-32 bg-slate-300">
       <div class="container">
+        <!-- Header My Skills Start-->
         <div class="w-full px-4">
           <div class="text-center mx-auto mb-10">
-            <h2 class="text-4xl font-semibold text-dark mb-2">My Skills</h2>
-            <p class="text-base text-secondary">
-              Skill saya terbagi menjadi dua yaitu Hard Skill dan Soft Skill
+            <h2
+              class="text-4xl font-semibold text-dark mb-2 font-serif lg:text-5xl"
+            >
+              My Skills
+            </h2>
+            <p class="text-base text-secondary lg:hidden">
+              Keterampilan saya terbagi menjadi dua yaitu Hard Skill dan Soft
+              Skill
+            </p>
+            <p class="text-base text-secondary hidden lg:text-lg lg:block">
+              Keterampilan saya terbagi menjadi dua yaitu Soft Skill dan Hard
+              Skill
             </p>
           </div>
         </div>
+        <!-- Header My Skills End -->
 
-        <!-- Card Hard Skill End-->
-        <div class="flex flex-wrap">
-          <div class="w-full px-4">
+        <div class="flex flex-wrap flex-row-reverse">
+          <!-- Card Hard Skill End-->
+          <div class="w-full px-4 lg:w-1/2">
             <div
-              class="border border-secondary shadow-xl rounded-lg bg-slate-800 text-white py-10 px-6"
+              class="border border-secondary shadow-xl rounded-lg bg-slate-800 text-white py-10 px-6 mb-10"
             >
-              <h3 class="text-2xl text-center font-medium mb-6">Hard Skill</h3>
+              <!-- Personal Skills -->
+              <h3
+                class="text-2xl text-center font-medium font-serif mb-6 lg:text-3xl"
+              >
+                Hard Skills
+              </h3>
               <h4
-                class="text-lg text-font-medium mb-4 border-t-2 border-white pt-4"
+                class="text-lg text-font-medium mb-4 border-t-2 border-white pt-4 font-serif lg:text-xl"
               >
                 Personal Skills
               </h4>
-              <div class="grid grid-cols-2 gap-5 text-black">
+              <div class="grid grid-cols-2 gap-5 text-dark">
                 <p
-                  class="py-2 px-4 bg-red-500 rounded-full font-semibold text-center"
+                  class="py-2 px-4 bg-red-400 rounded-full font-semibold text-center"
                 >
                   FRONT END
                 </p>
@@ -260,12 +276,12 @@
                   BACK END
                 </p>
                 <p
-                  class="py-2 px-4 bg-pink-500 rounded-full font-semibold text-center"
+                  class="py-2 px-4 bg-violet-500 rounded-full font-semibold text-center"
                 >
                   CLOUD COMPUTING
                 </p>
                 <p
-                  class="py-2 px-4 bg-violet-500 rounded-full font-semibold text-center"
+                  class="py-2 px-4 bg-pink-500 rounded-full font-semibold text-center"
                 >
                   CRYPTOGRAPHY
                 </p>
@@ -276,12 +292,13 @@
                 </p>
               </div>
 
+              <!-- Language -->
               <h4
-                class="text-lg text-font-medium mt-6 border-t-2 border-white pt-4 mb-4"
+                class="text-lg text-font-medium mt-6 border-t-2 border-white pt-4 mb-4 font-serif lg:text-xl"
               >
                 Language
               </h4>
-              <div class="grid grid-cols-3 gap-4">
+              <div class="grid grid-cols-3 gap-4 text-dark font-semibold">
                 <div
                   class="w-20 h-20 bg-orange-500 rounded-full text-center self-center relative"
                 >
@@ -319,7 +336,7 @@
                   </p>
                 </div>
                 <div
-                  class="w-20 h-20 bg-red-500 rounded-full text-center self-center relative"
+                  class="w-20 h-20 bg-red-400 rounded-full text-center self-center relative"
                 >
                   <p
                     class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
@@ -329,15 +346,15 @@
                 </div>
               </div>
 
+              <!-- Framework and Tools -->
               <h4
-                class="text-lg text-font-medium mt-6 border-t-2 border-white pt-4 mb-4"
+                class="text-lg text-font-medium mt-6 border-t-2 border-white pt-4 mb-4 font-serif lg:text-xl"
               >
                 Framework and Tools
               </h4>
-
-              <div class="grid grid-cols-3 gap-4">
+              <div class="grid grid-cols-3 gap-4 text-dark font-semibold">
                 <p class="py-4 bg-violet-500 text-center">Git & Github</p>
-                <p class="py-4 bg-red-500 text-center">NodeJS & NPM</p>
+                <p class="py-4 bg-red-400 text-center">NodeJS & NPM</p>
                 <p class="py-4 bg-sky-500 text-center">Tailwind</p>
                 <p class="py-4 bg-green-500 text-center">ReactJS</p>
                 <p class="py-4 bg-lime-500 text-center">NextJS</p>
@@ -345,8 +362,61 @@
               </div>
             </div>
           </div>
+          <!-- Card Hard Skill End -->
+
+          <!-- Card Soft Skill Start -->
+          <div class="w-full px-4 lg:w-1/2">
+            <div
+              class="border border-secondary shadow-xl rounded-lg bg-slate-800 text-white py-10 px-6"
+            >
+              <h3
+                class="text-2xl text-center font-medium mb-6 font-serif lg:text-3xl"
+              >
+                Soft Skills
+              </h3>
+              <div
+                class="text-lg text-font-medium mb-4 border-t-2 border-white pt-4 font-semibold text-dark grid grid-cols-2 gap-4"
+              >
+                <p
+                  class="py-2 bg-violet-500 rounded-full font-semibold text-center"
+                >
+                  Native Indonesian
+                </p>
+                <p
+                  class="py-2 bg-pink-500 rounded-full font-semibold text-center"
+                >
+                  Public Speaking
+                </p>
+                <p
+                  class="py-2 bg-lime-500 rounded-full font-semibold text-center col-span-2"
+                >
+                  Fluent American English
+                </p>
+                <p
+                  class="py-2 bg-orange-500 rounded-full font-semibold text-center"
+                >
+                  Problem Solving
+                </p>
+                <p
+                  class="py-2 bg-yellow-500 rounded-full font-semibold text-center"
+                >
+                  Collaboration
+                </p>
+                <p
+                  class="py-2 bg-pink-500 rounded-full font-semibold text-center"
+                >
+                  Emphathy
+                </p>
+                <p
+                  class="py-2 bg-green-500 rounded-full font-semibold text-center"
+                >
+                  Creative
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card Soft Skill End -->
         </div>
-        <!-- Card Hard Skill End -->
       </div>
     </section>
     <!-- Information Section End -->
