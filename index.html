@@ -22,6 +22,26 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body style="font-family: Inter, serif">
+    <!-- Navbar Start -->
+    <nav class="fixed w-full top-0 overflow-hidden z-50">
+      <ul>
+        <li class="bg-[#333] flex justify-center group lg:justify-between">
+          <div class="hidden lg:block">
+            <p class="pl-20 py-4 text-white">Vio Actona Putra</p>
+          </div>
+          <div>
+            <a href="#profile" class="nav-a group">Profile</a>
+            <a href="#skill" class="nav-a group">Skill</a>
+            <a href="#contact" class="nav-a group">Contact</a>
+          </div>
+          <div class="hidden lg:block">
+            <p class="pr-20 py-4 text-white">My Biodata</p>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar End -->
+
     <!-- Main Information Start -->
     <main id="profile" class="pt-36 pb-32 bg-slate-700">
       <div class="container">
@@ -215,7 +235,7 @@
                   </div>
                 </div>
                 <button
-                  class="absolute -bottom-2 right-10 mb-8 py-2 px-4 border-2 border-primary text-primary text-sm font-semibold rounded-full shadow-xl transition duration-500 hover:bg-primary hover:text-white active:bg-sky-800"
+                  class="absolute -bottom-2 right-10 mb-8 py-2 px-4 border-2 border-primary text-primary text-sm font-semibold rounded-full shadow-xl transition duration-500 hover:bg-primary hover:text-white"
                 >
                   Download My CV
                 </button>
@@ -479,7 +499,7 @@
             </div>
             <div class="w-full px-4">
               <button
-                class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500 active:bg-sky-800 active:opacity-100"
+                class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500"
               >
                 Kirim
               </button>
@@ -499,13 +519,13 @@
             <a
               href="https://instagram.com/act_putraa"
               target="_blank"
-              class="font-bold text-primary underline hover:text-blue-800"
+              class="font-bold text-primary underline hover:opacity-80"
               >Vio Actona Putra</a
             >, menggunakan
             <a
               href="https://tailwindcss.com"
               target="_blank"
-              class="font-bold text-sky-500 underline hover:text-blue-800"
+              class="font-bold text-primary underline hover:opacity-80"
               >Tailwind CSS</a
             >.
           </p>

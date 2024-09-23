@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-a {
+  @apply inline-block px-10 py-4 text-white hover:bg-primary;
+}
